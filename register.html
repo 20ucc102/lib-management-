@@ -1,0 +1,42 @@
+<html>
+    <title>sign into your new account</title>
+    <h1 style="color: orange; font-weight: bold; font-size: 28;">REGISTER YOUR ACCOUNT</h1>
+
+    <body style="padding-left: 30%; padding-top: 10%; background-color: honeydew;background-image: url(loginwall.jpg); background-repeat: no-repeat; background-size: cover; height: 100%; width: 100%; z-index: -1;opacity: 0.8;";">
+        <div style="border: 2px;border-radius: 12px;margin-right: 80%;background-color:cyan;"><br>
+        <form action="registration.php" method="POST">
+            <div style="margin-left: 5%;">
+            <label style="color:red">FULL NAME</label><br>
+            <input type="text" style="border: none;border-radius: 22px;height: 40px;" name="fullname" placeholder="fullname" style="color: blue;"></input>
+            &emsp;&emsp;<br><br>
+            <label style="color:red;">MOBILE</label><br>
+            <input type="text" style="border: none;border-radius: 22px;height: 40px;" name="mobile" placeholder="mobile" style="color: blue;"/>
+            <br>
+            <br>
+            <label style="color: red">DOB:</label>
+           <br>
+            <input type="text" name="dateofbirth"style="border: none;border-radius: 22px;height: 40px;" placeholder="yyyy-mm-dd" style="color: blue;"/>
+            <br>
+            <br>
+            <label style="color: red;">EMAIL ID</label><br>
+            <input type="text" name="email" placeholder="email example@x.com"style="border: none;border-radius: 22px;height: 40px;" style="color: blue;"/>
+            <br>
+            <br>
+            <label style="color: red;">CHOOSE GENDER</label>
+            <br>
+            <input type="radio" name="gender" value="m">male</input>
+            <br>
+            <br>
+            <input type="radio" name="gender" value="f">female</input>
+            <br>
+            <br>
+            <input type="radio" name="gender" value="o">other</input>
+            <br>
+            <br>
+            <button style="color: blue; border: none; border-radius: 12px;background-color: blue;color: cornsilk;height: 25px;" type="submit">register</button>
+            </form>
+        </div>
+        </div>
+        </body>
+
+    </html>

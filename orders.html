@@ -1,0 +1,22 @@
+<html>
+    <title>LMS:orders</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <body style="background-image: url(https://images.wallpaperscraft.com/image/books_library_shelves_138556_1920x1080.jpg); background-repeat: no-repeat; background-size: cover; height: 100%; width: 100%; z-index: -1;opacity: 0.8;">
+            <h1 style="font: bold;color: gold;margin-left: 15%;padding-top: 10%;">ORDERS..</h1>
+            <div style="margin-left: 15%;margin-right: 55%;border: 2px solid;border-radius: 20px;border-color: chartreuse;background-color:chartreuse;font-size: 22px;">
+                <form method="POST" action="orders.php">
+                    <label for="bt">SelectBookType</label>
+                    <select name="bookType" id="bt" style="border: none;border-radius: 14px;height: 45px;background-color: cornflowerblue; color: cornsilk;" required>
+                        <option value="" disabled selected hidden>Book Type</option>
+                        <option value="fiction">fiction</option>
+                        <option value="programming">programming</option>
+                        <option value="novels">novels</option>
+                        <option value="others">others</option>
+                    </select>
+                    <button type="submit" style="border: none;border-radius: 12px;background-color: orange;color: cornsilk;height: 35px; width: 90px;">submit</button>
+                </form>   
+            </div>  
+        </body>
+        </head>
